@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Brahma]">
+  <test thread-count="5" verbose="0" name="MavenTest(failed)">
+    <classes>
+      <class name="driverFactroy.DataDrivenFramework">
+        <methods>
+          <include name="launch"/>
+          <include name="logout"/>
+          <include name="verifyLogin"/>
+        </methods>
+      </class> <!-- driverFactroy.DataDrivenFramework -->
+      <class name="driverFactroy.DriverScript">
+        <methods>
+          <include name="logout"/>
+          <include name="launch"/>
+          <include name="primusbank"/>
+        </methods>
+      </class> <!-- driverFactroy.DriverScript -->
+    </classes>
+  </test> <!-- MavenTest(failed) -->
+</suite> <!-- Failed suite [Brahma] -->

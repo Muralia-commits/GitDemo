@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="bala" duration-ms="92138" started-at="2019-09-09T10:52:27Z" finished-at="2019-09-09T10:53:59Z">
+    <groups>
+    </groups>
+    <test name="chromebrowser" duration-ms="39417" started-at="2019-09-09T10:52:27Z" finished-at="2019-09-09T10:53:06Z">
+      <class name="aug.Calculator_Web">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:aug.Calculator_Web@96532d6]" name="launch" is-config="true" duration-ms="11193" started-at="2019-09-09T16:22:27Z" finished-at="2019-09-09T16:22:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyCalculation()[pri:0, instance:aug.Calculator_Web@96532d6]" name="verifyCalculation" duration-ms="28147" started-at="2019-09-09T16:22:38Z" finished-at="2019-09-09T16:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculation -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:aug.Calculator_Web@96532d6]" name="logout" is-config="true" duration-ms="66" started-at="2019-09-09T16:23:06Z" finished-at="2019-09-09T16:23:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- aug.Calculator_Web -->
+    </test> <!-- chromebrowser -->
+    <test name="firefoxbrowser" duration-ms="52678" started-at="2019-09-09T10:53:06Z" finished-at="2019-09-09T10:53:59Z">
+      <class name="aug.Calculator_Web">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:aug.Calculator_Web@2c6a3f77]" name="launch" is-config="true" duration-ms="18521" started-at="2019-09-09T16:23:06Z" finished-at="2019-09-09T16:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifyCalculation()[pri:0, instance:aug.Calculator_Web@2c6a3f77]" name="verifyCalculation" duration-ms="31023" started-at="2019-09-09T16:23:25Z" finished-at="2019-09-09T16:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculation -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:aug.Calculator_Web@2c6a3f77]" name="logout" is-config="true" duration-ms="3132" started-at="2019-09-09T16:23:56Z" finished-at="2019-09-09T16:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- aug.Calculator_Web -->
+    </test> <!-- firefoxbrowser -->
+  </suite> <!-- bala -->
+</testng-results>
